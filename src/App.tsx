@@ -453,6 +453,7 @@ export default function App() {
           
           <div className="text-[10px] md:text-xs text-white/60 leading-relaxed space-y-3 text-center md:text-left">
             <p>© Copyright {new Date().getFullYear()} His Secret Obsession. All Rights Reserved.</p>
+            <p><strong>Affiliate Disclaimer & Thank You:</strong> This website contains affiliate links. If you click on one of our links and make a purchase, we may receive a small commission at no extra cost to you. This helps support our website and allows us to continue providing valuable content. <strong>Thank you so much for your support, we truly appreciate it!</strong></p>
             <p>We guard your privacy very seriously, please review our privacy policy. Any use of this website constitutes acceptance of our Terms & Conditions and Privacy Policy. You must be 18 or older to use this website. Results can vary, this information is not a substitute for personalized help from a licensed professional.</p>
             <p>ClickBank is the retailer of products on this site. CLICKBANK® is a registered trademark of Click Sales Inc., a Delaware corporation located at 1444 S. Entertainment Ave., Suite 410 Boise, ID 83709, USA and used by permission. ClickBank's role as retailer does not constitute an endorsement, approval or review of these products or any claim, statement or opinion used in promotion of these products.</p>
           </div>
