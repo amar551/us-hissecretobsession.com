@@ -7,6 +7,7 @@ import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { CheckCircle2, ShoppingCart, MousePointer2, ChevronDown, List, Target, Flame, ShieldCheck, Star, Info, User, Zap } from "lucide-react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const AFFILIATE_LINK = "https://tinyurl.com/bdvwhmf9";
 
@@ -458,7 +459,7 @@ export default function App() {
           </div>
         </div>
       </footer>
+      <SpeedInsights />
     </div>
   );
 }
-
