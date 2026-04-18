@@ -26,7 +26,7 @@ export default function App() {
     },
     "offers": {
       "@type": "Offer",
-      "url": "https://hissecretobsession.us/",
+      "url": "https://us-hissecretobsession-com.vercel.app/",
       "priceCurrency": "USD",
       "price": "49.00",
       "availability": "https://schema.org/InStock"
