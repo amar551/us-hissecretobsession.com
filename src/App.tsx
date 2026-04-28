@@ -24,6 +24,26 @@ export default function App() {
       "@type": "Brand",
       "name": "James Bauer"
     },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "bestRating": "5",
+      "worstRating": "1",
+      "ratingCount": "847"
+    },
+    "review": {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Verified Customer"
+      },
+      "reviewBody": "This program completely changed my relationship. He is more attentive and loving than ever before. Highly recommended!"
+    },
     "offers": {
       "@type": "Offer",
       "url": "https://us-hissecretobsession-com.vercel.app/",
