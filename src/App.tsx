@@ -19,7 +19,7 @@ export default function App() {
       "https://his-secretobsession.com/assets/images/his-secret-obsession.webp",
       "https://his-secretobsession.com/assets/images/his-secret-obsession-book-1163x842.webp"
     ],
-    "description": "His Secret Obsession by James Bauer is a relationship guide that teaches women how to trigger a man's Hero Instinct to build a lasting relationship or get an ex back fast.",
+    "description": "His Secret Obsession by James Bauer teaches how to trigger the Hero Instinct to build a lasting relationship or get an ex back.",
     "brand": {
       "@type": "Brand",
       "name": "James Bauer"
@@ -140,7 +140,7 @@ export default function App() {
 
       {/* Hero Title Section matched to screenshot */}
       <section className="w-full bg-brand-primary text-white py-10 md:py-16 text-center border-t border-white/20">
-        <h1 className="text-4xl md:text-7xl font-bold tracking-tight">His Secret Obsession</h1>
+        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight px-4 break-words">His Secret Obsession: Unlock a Man's Hero Instinct</h1>
       </section>
 
       <main className="flex-1">
