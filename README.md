@@ -2,19 +2,57 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# His Secret Obsession - Official Landing Page
 
-This contains everything you need to run your app locally.
+A high-converting, SEO-optimized landing page built with React, Vite, and Tailwind CSS for *His Secret Obsession* by James Bauer.
 
-View your app in AI Studio: https://ai.studio/apps/8982903e-5df3-4e14-8e33-081cf5474ba7
+## Features
 
-## Run Locally
+- **SEO & Search Engine Verification**: Includes Bing Webmaster verification, Google Search Console verification, OpenGraph & Twitter Card tags, and structured Schema.org markup.
+- **Conversion Optimization**: Highlighting core psychological triggers (The Hero Instinct, 12-Word Secret Text, Fascination Signal, Silent Treatment solution).
+- **Responsive & Accessible**: Fully responsive across mobile, tablet, and desktop screens with smooth interactive accordions, testimonials, and countdown timer.
+- **Fast & Modern**: Built with Vite + React 18 + Tailwind CSS.
 
-**Prerequisites:**  Node.js
+## Getting Started Locally
 
+### Prerequisites
+- Node.js (v18 or higher recommended)
+- npm or yarn
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Installation
+
+1. Clone or download the repository:
+   ```bash
+   git clone <YOUR_GITHUB_REPO_URL>
+   cd <YOUR_REPO_DIR>
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+   Open `http://localhost:3000` (or the port displayed in your terminal) to view the site.
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+   The production-ready output will be in the `dist` directory.
+
+## Deployment
+
+### Deploy to Vercel
+1. Push this repository to GitHub.
+2. Go to [Vercel](https://vercel.com) and click **"Add New Project"**.
+3. Import your GitHub repository.
+4. Framework Preset: **Vite**.
+5. Click **Deploy**.
+
+### Deploy to Netlify / GitHub Pages
+- **Build command**: `npm run build`
+- **Publish directory**: `dist`
